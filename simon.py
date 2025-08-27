@@ -9,6 +9,7 @@ screen = pygame.display.set_mode((800, 800)) #creates game screeen
 
 #collision check
 def collision(xpos, ypos):
+    print(xpos, ypos)
     if math.sqrt((xpos - 400)**2+(ypos - 400)**2)>200:
         print("outside of ring")
     else:
